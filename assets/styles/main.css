@@ -1,18 +1,27 @@
+/* Subscribe Button */
 .subscribe-btn {
         background-color: #007bff;
         padding: 10px 20px;
         color: white;
         border: none;
         border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
       }
+      
       .subscribe-btn:hover {
         background-color: #0056b3;
+        transform: scale(1.02);
       }
+      
+      /* Dark Mode */
       body.dark-mode {
         background-color: #121212;
         color: #e0e0e0;
       }
+      
+      /* Header */
       header {
-        margin-bottom: 20px;
+        margin-bottom: 24px; /* slightly increased for breathing space */
       }
       
